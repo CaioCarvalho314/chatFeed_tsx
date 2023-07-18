@@ -48,7 +48,7 @@ export function Comment({ comment, deleteComment }: CommentProps) {
           </button>
           <button
             className={styles.dislike}
-            onClick={() => setDislikeCount(likeCount + 1)}
+            onClick={() => setDislikeCount(dislikeCount + 1)}
           >
             <ThumbsDown />
             Não Curtir <span>{dislikeCount}</span>
